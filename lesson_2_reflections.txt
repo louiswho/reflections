@@ -14,3 +14,9 @@ What value do you think it offers?
   the repository contains both a working directory of files and the commits
   that pertain to them. The staging area is good because it allows you to group
   files together in order to combine related changes into a single commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+  By only adding files to the staging area when they are a related to a general
+  change or a group of related changes.
