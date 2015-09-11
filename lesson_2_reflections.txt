@@ -28,3 +28,16 @@ organized? How would branches help?
   that are drastically different from your original project like adding
   experimental features that change a lot of things in your project or
   translating some parts to another language.
+
+How do the diagrams help you visualize the branch structure?
+  The diagrams help to show the structure of the branches and the relationship
+  between commits by thinking of commits as parent and child nodes and
+  parentless nodes being unreachable.
+
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+  Merging two branches creates a new commit containing previous changes from the
+  commits of the respective parent branches. It is represented in the diagram
+  this way because it is essentially merging the commits from branches
+  designated to be merged into the current selected branch.
