@@ -41,3 +41,12 @@ represent it in the diagram the way we do?
   commits of the respective parent branches. It is represented in the diagram
   this way because it is essentially merging the commits from branches
   designated to be merged into the current selected branch.
+
+  What are the pros and cons of Git’s
+  automatic merging vs. always doing merges manually?
+
+    Automatic merging simplifies and speeds up the process of merging branches
+    but it some cases it can't resolve conflicts that could easily be fixed
+    manually. Manual merging gives you complete control at the moment of merge
+    so that you can be sure there are no conflicts but it may take longer to do
+    so.
