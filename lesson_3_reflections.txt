@@ -1,3 +1,15 @@
-When would you want to use a remote repository rather than keeping all your work local?
-  A good case to use remote repositories would be when you work on files alone, but from multiple locations
-  or when collaborating with other people
+When would you want to use a remote repository rather than keeping
+all your work local?
+
+  A good case to use remote repositories would be when you work on files alone,
+  but from multiple locations or when collaborating with other people
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+  By only pulling changes that you want from the remote repository, you preserve
+  the state of your local repository while you are still working on it, by
+  automatically syncing the remote repository to your local repository,
+  Git could end up overwriting changes and commits you made but did not push to
+  the remote repository yet, essentially reverting you back to an older version
+  of the files and possibly causing significant lost progress.
