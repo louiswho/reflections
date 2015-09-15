@@ -13,3 +13,23 @@ automatically stay up-to-date with your remote repository?
   Git could end up overwriting changes and commits you made but did not push to
   the remote repository yet, essentially reverting you back to an older version
   of the files and possibly causing significant lost progress.
+
+Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+  Forks are used only on GitHub and make a copy of the repository on your
+  account, forking would be good for working on large projects or large groups
+  of people so that you have your own copy of the code to make commits to, but
+  to get them on the remote repository, the push requests would have to be
+  verified by those with higher access privileges
+
+  Clones are used to copy repositories from GitHub to your computer and can also
+  be used to make copies of local repositories, clone would be good for
+  experimenting with a repository someone made to learn how the code functions
+  or for copying useful repositories that could be incorporated into your own work
+
+  Branches are commits on their own timeline that can be seperate and merged
+  when desired, branches could be used when you want to work on new features
+  and keep them seperate from the main code until they are complete. Branches
+  would also be good for groups working on different parts of code in the same
+  file so that all needed changes could be merged back into one branch when ready
