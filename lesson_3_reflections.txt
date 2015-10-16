@@ -49,3 +49,14 @@ When would you use one instead of another?
     collaboration projects like programming Git and GitHub make things easier by
     providing a framework that you can work within and easily fix or recover
     from mistakes and conflicts that may occur.
+
+  When would you want to make changes in a separate branch rather than directly
+  in master? What benefits does each approach have?
+    Making a separate branch would be good when you are not ready to include
+    new features in the master branch, because you can keep the master branch
+    intact, insuring that remains functional and then merge master into the new
+    when you want to commit to incorporating the new features into the main
+    build. The benefit of this is that all the commits and changes that create
+    the new feature can be bundled into a pull request, that can be reviewed
+    before adding it to the master, this allows the repository owners to
+    maintain the integrity of the master.
