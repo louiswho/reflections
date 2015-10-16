@@ -33,3 +33,8 @@ When would you use one instead of another?
   and keep them seperate from the main code until they are complete. Branches
   would also be good for groups working on different parts of code in the same
   file so that all needed changes could be merged back into one branch when ready
+
+  What is the benefit of having a copy of the last known state of the remote
+  stored locally?
+    Having a copy of the last known state allows you to compare your version of
+    changes with what has been committed to the repository.
