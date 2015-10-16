@@ -28,9 +28,9 @@ When would you use one instead of another?
   experimenting with a repository someone made to learn how the code functions
   or for copying useful repositories that could be incorporated into your own work
 
-  Branches are commits on their own timeline that can be seperate and merged
+  Branches are commits on their own timeline that can be separate and merged
   when desired, branches could be used when you want to work on new features
-  and keep them seperate from the main code until they are complete. Branches
+  and keep them separate from the main code until they are complete. Branches
   would also be good for groups working on different parts of code in the same
   file so that all needed changes could be merged back into one branch when ready
 
@@ -38,3 +38,14 @@ When would you use one instead of another?
   stored locally?
     Having a copy of the last known state allows you to compare your version of
     changes with what has been committed to the repository.
+
+  How would you collaborate without using Git or GitHub? What would be easier,
+  and what would be harder?
+    Collaborating without using Git or GitHub is easier in the sense that there
+    is less to learn and it is a simpler process to just edit a file from one
+    source and try to document all changes in on place. What's harder about it
+    though is that collaborating without Git and GitHub becomes messy as soon as
+    conflicts arrive or mistakes affecting multiple files happen. For
+    collaboration projects like programming Git and GitHub make things easier by
+    providing a framework that you can work within and easily fix or recover
+    from mistakes and conflicts that may occur.
